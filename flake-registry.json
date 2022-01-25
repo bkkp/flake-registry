@@ -1,0 +1,51 @@
+{
+  "flakes": [
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nixos",
+        "ref": "nixos-21.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "unstable",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "asgard",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "bkkp",
+        "repo": "asgard",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "asgard-d",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "bkkp",
+        "ref": "dev",
+        "repo": "asgard",
+        "type": "github"
+      }
+    }
+  ],
+  "version": 2
+}
