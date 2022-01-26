@@ -46,6 +46,17 @@
         "repo": "nixpkgs",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "nixos-vms",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "bkkp",
+        "repo": "nixos-vms",
+        "type": "github"
+      }
     }
   ],
   "version": 2
