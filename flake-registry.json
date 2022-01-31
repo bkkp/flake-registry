@@ -57,6 +57,17 @@
         "repo": "nixos-vms",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "utgard",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "bkkp",
+        "repo": "utgard",
+        "type": "github"
+      }
     }
   ],
   "version": 2
