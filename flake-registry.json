@@ -80,6 +80,17 @@
         "repo": "nixpkgs",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "poetry2nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "repo": "poetry2nix",
+        "type": "github"
+      }
     }
   ],
   "version": 2
