@@ -2,6 +2,30 @@
   "flakes": [
     {
       "from": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "ref": "nixos-22.05-small",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "ref": "2.11.1",
+        "repo": "nix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "asgard",
         "type": "indirect"
       },
@@ -13,24 +37,12 @@
     },
     {
       "from": {
-        "id": "asgard-d",
+        "id": "poetry2nix",
         "type": "indirect"
       },
       "to": {
-        "owner": "bkkp",
-        "ref": "dev",
-        "repo": "asgard",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
-        "id": "nixos-vms",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "bkkp",
-        "repo": "nixos-vms",
+        "owner": "nix-community",
+        "repo": "poetry2nix",
         "type": "github"
       }
     },
@@ -47,48 +59,12 @@
     },
     {
       "from": {
-        "id": "nixpkgs",
+        "id": "nixos-vms",
         "type": "indirect"
       },
       "to": {
-        "owner": "NixOS",
-        "ref": "nixos-22.05",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
-        "id": "nixpkgs-small",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "NixOS",
-        "ref": "nixos-22.05-small",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
-        "id": "unstable",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "NixOS",
-        "ref": "nixos-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
-        "id": "poetry2nix",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "nix-community",
-        "repo": "poetry2nix",
+        "owner": "bkkp",
+        "repo": "nixos-vms",
         "type": "github"
       }
     }
