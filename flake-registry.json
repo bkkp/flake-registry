@@ -37,17 +37,6 @@
     },
     {
       "from": {
-        "id": "poetry2nix",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "nix-community",
-        "repo": "poetry2nix",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "utgard",
         "type": "indirect"
       },
@@ -65,6 +54,18 @@
       "to": {
         "owner": "bkkp",
         "repo": "nixos-vms",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "poetry2nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "ref": "1.31.0",
+        "repo": "poetry2nix",
         "type": "github"
       }
     }
