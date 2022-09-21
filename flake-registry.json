@@ -68,6 +68,18 @@
         "repo": "poetry2nix",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "terranix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "terranix",
+        "ref": "2.5.5",
+        "repo": "terranix",
+        "type": "github"
+      }
     }
   ],
   "version": 2
