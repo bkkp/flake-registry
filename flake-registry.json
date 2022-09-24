@@ -80,6 +80,17 @@
         "repo": "terranix",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "sops-nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "Mic92",
+        "repo": "sops-nix",
+        "type": "github"
+      }
     }
   ],
   "version": 2
