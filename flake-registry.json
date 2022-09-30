@@ -91,6 +91,17 @@
         "repo": "sops-nix",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "midgard-utils",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "bkkp",
+        "repo": "midgard.utils",
+        "type": "github"
+      }
     }
   ],
   "version": 2
