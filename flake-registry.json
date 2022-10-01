@@ -94,23 +94,23 @@
     },
     {
       "from": {
-        "id": "midgard-utils",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "bkkp",
-        "repo": "midgard.utils",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "home-manager",
         "type": "indirect"
       },
       "to": {
         "owner": "nix-community",
         "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "utils",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "bkkp",
+        "repo": "utils",
         "type": "github"
       }
     }
