@@ -113,6 +113,17 @@
         "repo": "utils",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "pc",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "bkkp",
+        "repo": "pc",
+        "type": "github"
+      }
     }
   ],
   "version": 2
