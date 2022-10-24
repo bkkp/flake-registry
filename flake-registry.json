@@ -47,18 +47,6 @@
     },
     {
       "from": {
-        "id": "poetry2nix",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "nix-community",
-        "ref": "1.31.0",
-        "repo": "poetry2nix",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "terranix",
         "type": "indirect"
       },
@@ -135,6 +123,18 @@
         "owner": "NixOS",
         "ref": "nixos-22.05",
         "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "poetry2nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "ref": "1.35.0",
+        "repo": "poetry2nix",
         "type": "github"
       }
     }
