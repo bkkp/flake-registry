@@ -81,17 +81,6 @@
     },
     {
       "from": {
-        "id": "pc",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "bkkp",
-        "repo": "pc",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "home-manager",
         "type": "indirect"
       },
@@ -135,6 +124,18 @@
         "owner": "nix-community",
         "ref": "1.35.0",
         "repo": "poetry2nix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "pc",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "bkkp",
+        "ref": "nixos-22.05",
+        "repo": "pc",
         "type": "github"
       }
     }
