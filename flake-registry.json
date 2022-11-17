@@ -36,17 +36,6 @@
     },
     {
       "from": {
-        "id": "nixos-vms",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "bkkp",
-        "repo": "nixos-vms",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "terranix",
         "type": "indirect"
       },
@@ -147,6 +136,17 @@
       "to": {
         "owner": "tweag",
         "repo": "nickel",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixosVm",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "bkkp",
+        "repo": "nixos.vm",
         "type": "github"
       }
     }
