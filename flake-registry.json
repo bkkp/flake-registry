@@ -75,7 +75,7 @@
       },
       "to": {
         "owner": "nix-community",
-        "ref": "release-22.05",
+        "ref": "release-22.11",
         "repo": "home-manager",
         "type": "github"
       }
@@ -87,7 +87,7 @@
       },
       "to": {
         "owner": "NixOS",
-        "ref": "nixos-22.05-small",
+        "ref": "nixos-22.11-small",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -99,7 +99,7 @@
       },
       "to": {
         "owner": "NixOS",
-        "ref": "nixos-22.05",
+        "ref": "nixos-22.11",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -123,7 +123,7 @@
       },
       "to": {
         "owner": "bkkp",
-        "ref": "nixos-22.05",
+        "ref": "nixos-22.11",
         "repo": "pc",
         "type": "github"
       }
