@@ -7,7 +7,7 @@
       },
       "to": {
         "owner": "NixOS",
-        "ref": "2.11.1",
+        "ref": "2.12.0",
         "repo": "nix",
         "type": "github"
       }
