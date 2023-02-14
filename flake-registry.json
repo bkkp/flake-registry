@@ -160,6 +160,17 @@
         "repo": "durin",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "intradaytrades",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "bkkp",
+        "repo": "intraday.trades",
+        "type": "github"
+      }
     }
   ],
   "version": 2
