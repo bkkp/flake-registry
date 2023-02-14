@@ -149,6 +149,17 @@
         "repo": "nixos.vm",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "durin",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "bkkp",
+        "repo": "durin",
+        "type": "github"
+      }
     }
   ],
   "version": 2
