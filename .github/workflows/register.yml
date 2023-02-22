@@ -1,0 +1,16 @@
+name: Register tagged repo 
+on:
+  repository_dispatch
+  
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - run: echo ${{ github.event.client_payload }}
+      
+      # - name: Nix Shell
+      #   uses: workflow/nix-shell-action@v3.2.0
+      #   with:
+      #     script: nix registry add ${{ github.event.client_payload.repository }}
