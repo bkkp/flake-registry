@@ -2,18 +2,6 @@
   "flakes": [
     {
       "from": {
-        "id": "nix",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "NixOS",
-        "ref": "2.12.0",
-        "repo": "nix",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "asgard",
         "type": "indirect"
       },
@@ -169,6 +157,18 @@
       "to": {
         "owner": "bkkp",
         "repo": "intraday.trades",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nixos",
+        "ref": "2.13.3",
+        "repo": "nix",
         "type": "github"
       }
     }
