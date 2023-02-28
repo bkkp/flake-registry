@@ -1,16 +1,31 @@
-name: Register tagged repo 
+name: Register tagged repo
 on:
-  repository_dispatch
-  
+  workflow_dispatch:
+    inputs:
+      repository_full_name:
+        description: 'Full name of repository (org/repo_name)'
+        required: true
+        type: string
+      flake_name:
+        description: "Name of flake (repo_name without symbols)"
+        required: true
+        type: string
+
 jobs:
   register:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
-      - run: echo ${{ github.event.client_payload }}
-      
-      # - name: Nix Shell
-      #   uses: workflow/nix-shell-action@v3.2.0
-      #   with:
-      #     script: nix registry add ${{ github.event.client_payload.repository }}
+        with:
+          token: ${{ secrets.SVADIL_TOKEN }}
+      - uses: cachix/install-nix-action@v18
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+      - name: Register
+        run: nix registry add --registry ./flake-registry.json ${{ inputs.flake_name }} github:${{ inputs.repository_full_name }}
+      - name: Commit update
+        run: |
+          git config user.name Svadilfare
+          git config user.email bkkp.dev@bkk.no
+          git commit -am "Add ${{ inputs.flake_name }}"
+          git push
