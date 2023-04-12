@@ -167,7 +167,7 @@
       },
       "to": {
         "owner": "nixos",
-        "ref": "2.13.3",
+        "ref": "2.15.0",
         "repo": "nix",
         "type": "github"
       }
