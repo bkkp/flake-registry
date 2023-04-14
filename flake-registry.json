@@ -171,6 +171,17 @@
         "repo": "nix",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "utetid",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "bkkp",
+        "repo": "utetid",
+        "type": "github"
+      }
     }
   ],
   "version": 2
