@@ -182,6 +182,17 @@
         "repo": "utetid",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "jobtech-api",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "bkkp",
+        "repo": "jobtech.api",
+        "type": "github"
+      }
     }
   ],
   "version": 2
